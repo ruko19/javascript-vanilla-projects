@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">Quiz Game</h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score"></span>/<span id="total-question"></span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question"></h2>
+                <ul class="quiz-options">
+                    <!-- <li>1. Hyper text tranfer package</li>
+                    <li>1. Hyper text tranfer package</li>
+                    <li>1. Hyper text tranfer package</li>
+                    <li>1. Hyper text tranfer package</li> -->
+                </ul>
+                <div id="result">
+                    <!-- result here -->
+                </div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
